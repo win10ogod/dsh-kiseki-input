@@ -1,0 +1,4 @@
+- insert:
+    - id: dsh-kiseki-input
+      name: dsh-kiseki-input
+      config: {}

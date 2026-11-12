@@ -1,0 +1,32 @@
+{
+  "name": "demo-notepad-unicode",
+  "steps": [
+    {"type": "combo", "keys": "win+r", "backend": "system"},
+    {"type": "sleep", "ms": 250},
+    {"type": "text", "text": "notepad.exe"},
+    {"type": "key", "key": "enter", "backend": "system"},
+    {"type": "sleep", "ms": 900},
+    {"type": "combo", "keys": "ctrl+a", "backend": "system"},
+    {"type": "key", "key": "backspace", "backend": "system"},
+    {"type": "sleep", "ms": 150},
+    {"type": "text", "text": "Kiseki "},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "Input "},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "demo"},
+    {"type": "key", "key": "enter", "backend": "system"},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "WSADFGHJKL, "},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "你好"},
+    {"type": "key", "key": "enter", "backend": "system"},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "Macro + "},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "screenshot + "},
+    {"type": "sleep", "ms": 160},
+    {"type": "text", "text": "notification"},
+    {"type": "sleep", "ms": 300},
+    {"type": "screenshot", "output": "artifacts/live-test/demos/demo-notepad-unicode.bmp"}
+  ]
+}

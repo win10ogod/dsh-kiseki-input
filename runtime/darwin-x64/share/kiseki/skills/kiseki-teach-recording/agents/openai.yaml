@@ -1,0 +1,4 @@
+interface:
+  display_name: "Kiseki Teach Recording"
+  short_description: "Record, validate, and compile teaching bundles into skills"
+  default_prompt: "Use $kiseki-teach-recording to record, inspect, validate, or turn a Kiseki teaching bundle into a reusable Codex skill."
